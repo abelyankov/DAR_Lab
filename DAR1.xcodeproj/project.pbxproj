@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		62B202D4BCCE83832DFAD087 /* Pods_DAR1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C3F6262551B60B168C1118 /* Pods_DAR1.framework */; };
+		9981F3DD20D21856009AE91F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9981F3DC20D21856009AE91F /* Download.swift */; };
 		99C1E02D20CE6BBA00D19F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C1E02C20CE6BBA00D19F51 /* AppDelegate.swift */; };
 		99C1E02F20CE6BBA00D19F51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C1E02E20CE6BBA00D19F51 /* ViewController.swift */; };
 		99C1E03220CE6BBA00D19F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C1E03020CE6BBA00D19F51 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		00B629D5F9F671EB040A76AE /* Pods-DAR1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAR1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DAR1/Pods-DAR1.debug.xcconfig"; sourceTree = "<group>"; };
+		9981F3DC20D21856009AE91F /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		99C1E02920CE6BBA00D19F51 /* DAR1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAR1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C1E02C20CE6BBA00D19F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C1E02E20CE6BBA00D19F51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				99C1E02E20CE6BBA00D19F51 /* ViewController.swift */,
 				99F4624020CE906200A4FDD1 /* TableViewCell.swift */,
 				99F4624220CF9A5800A4FDD1 /* Model.swift */,
+				9981F3DC20D21856009AE91F /* Download.swift */,
 				99C1E03020CE6BBA00D19F51 /* Main.storyboard */,
 				99C1E03320CE6BBC00D19F51 /* Assets.xcassets */,
 				99C1E03520CE6BBC00D19F51 /* LaunchScreen.storyboard */,
@@ -335,6 +338,7 @@
 				99C1E02F20CE6BBA00D19F51 /* ViewController.swift in Sources */,
 				99C1E02D20CE6BBA00D19F51 /* AppDelegate.swift in Sources */,
 				99F4624320CF9A5800A4FDD1 /* Model.swift in Sources */,
+				9981F3DD20D21856009AE91F /* Download.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

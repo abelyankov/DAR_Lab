@@ -14,13 +14,14 @@ class Model {
     var author: String!
     var title: String!
     var url: String!
+    var type: Int!
     
     init(author: String, title: String, url: String) {
         self.author = author
         self.title = title
         self.url = url
     }
-    static func Categories(completionHandler: @escaping ([Model]) -> ()) {
+    static func Songs(completionHandler: @escaping ([Model]) -> ()) {
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
         
         let URL = "https://vibze.github.io/downloadr-task/tracks.json"
@@ -41,5 +42,5 @@ class Model {
                 completionHandler(categories)
             }
         }
-    }
+    }    
 }
